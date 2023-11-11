@@ -1,0 +1,10 @@
+- name: "test"
+  require_value: false
+  command: "test"
+  type: "alias"
+  alias: "ls"
+- name: "echo"
+  require_value: false
+  command: "echo"
+  type: "echo"
+  echo: "ls"
